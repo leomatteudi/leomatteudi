@@ -1,0 +1,16 @@
+---
+ref: inspirations
+permalink: /inspirations
+title: Inspira&shy;tions
+returntop: true
+returnbottom: true
+---
+
+{%- assign content=site.content | where:"category", page.ref -%}
+
+{%- for item in content -%}
+  <div class="inspirations-div block">
+    <h2 class="tabtitle">{{ item.tabtitle }}</h2>
+    {{ item.content }}
+  </div>
+{%- endfor -%}

@@ -1,0 +1,18 @@
+- ref: psychotherapie
+  link: /psychotherapie
+  nav: Thérapie
+- ref: facilitation
+  link: /facilitation
+  nav: Facilitation
+- ref: evenements
+  link: /evenements
+  nav: Événements
+- ref: qui
+  link: /qui-suis-je
+  nav: Qui suis-je ?
+- ref: temoignages
+  link: /temoignages
+  nav: Témoignages
+- ref: contact
+  link: /contact
+  nav: Contact

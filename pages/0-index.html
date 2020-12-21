@@ -1,0 +1,133 @@
+---
+layout: default
+ref: index
+permalink: /
+description: "Accompagnements pour une transformation intérieure, sociale & écologique"
+---
+
+<div id="main-index">
+
+	<div id="index-start">
+		<div>
+			<img id="logo" src="/static/img/logo.png" alt="{{ site.title }} ({{ site.subtitle }})">
+		</div>
+		<div id="name">
+			Léo Matteudi
+		</div>
+		<div id="occupation">
+			<span class="color1">Facilitateur</span>&nbsp;<span class="color2">de&nbsp;résilience</span>
+		</div>
+		<div id="slogan">
+		Pour une transformation intérieure, sociale & écologique
+		</div>
+	</div>
+
+	<div class="index-scroll">▽</div>
+
+	<div id="index-mission" class="index-block">
+		<div id="mission-txt">
+			<div class="index-title">
+				<span class="index1-down-hide">&#9654; </span>MISSION
+			</div>
+			<div id="mission1">
+				Face à la gravité et à l’urgence de la <em>crise planétaire</em>,<br>
+				il est l’heure de reprendre en main notre&nbsp;destin&nbsp;collectif.
+			</div>
+			<div id="mission2">
+				J’aide <em>citoyen·nes</em>, <em>organisations</em> et <em>collectivités</em><br>
+				à <strong>rêver</strong>, <strong>s'engager</strong> et <strong>coopérer</strong> pour relever<br>
+				avec lucidité et créativité cet&nbsp;immense&nbsp;défi...<br>
+			</div>
+			<div>
+				...et bâtir ensemble un avenir viable et&nbsp;désirable&nbsp;:<br>
+				<em>solidaire</em>, <em>démocratique</em>,&nbsp;<em>écologique</em>&nbsp;!
+			</div>
+		</div>
+		<div>
+			<img id="mission-img" class="index-img" src="/static/img/transitions.png" alt="Transitions">
+		</div>
+	</div>
+
+	<div id="index-services" class="index-block">
+		<div id="services-txt">
+			<div class="index-title">
+				ACTIVITÉS<span class="index1-down-hide"> &#9664;</span>
+			</div>
+			<div>
+				<em><strong>Psychothérapie</strong> intégrative</em>
+			</div>
+			<div>
+				<em><strong>Facilitation</strong> de <br class="br-hide">l’intelligence&nbsp;collective,<br>
+				accompagnement d’équipes <br class="br-hide">&&nbsp;de&nbsp;projets</em>
+			</div>
+			<div>
+				<em><strong>Conférences</strong>, <strong>ateliers</strong> <br class="br-hide">& <strong>formations</strong></em>
+			</div>
+		</div>
+		<div>
+			<img id="services-img" class="index-img" src="/static/img/intelligence-collective.png" alt="Cercle de parole">
+		</div>
+	</div>
+
+	<div id="index-domaines" class="index-block">
+		<div id="domaines-txt">
+			<div class="index-title">
+				<span class="index1-down-hide">&#9654; </span>THÉMATIQUES
+			</div>
+			<div>
+				Transformer nos modes de vie •&nbsp;<em>Tisser la <strong>résilience</strong> et&nbsp;la&nbsp;<strong>résistance</strong></em>
+			</div>
+			<div>
+				<em><strong>Coopérer</strong> avec la nature</em> •&nbsp;Se&nbsp;relier à la&nbsp;toile&nbsp;du&nbsp;vivant
+			</div>
+			<div>
+				Mobiliser la puissance de l’imaginaire •&nbsp;<em><strong>Inventer</strong> de nouveaux&nbsp;possibles</em>
+			</div>
+			<div>
+				<em>Pratiquer la <strong>démocratie</strong></em> •&nbsp;Inclure la diversité des&nbsp;points&nbsp;de&nbsp;vue
+			</div>
+				<div>
+				Déconstruire les rapports de domination •&nbsp;<em>Cultiver et <strong>restaurer</strong>&nbsp;les&nbsp;liens</em>
+			</div>
+			<div>
+				<em>Bâtir des <strong>architectures</strong> de coopération</em> •&nbsp;Se&nbsp;préparer aux&nbsp;effondrements
+			</div>
+		</div>
+		<div>
+			<img id="domaines-img" class="index-img" src="/static/img/ralentir.png" alt="Amérindienne en connexion avec la nature">
+		</div>
+	</div>
+
+	<div id="index-portrait" class="index-block">
+		<div id="portrait-txt">
+			<div class="index-title">
+				QUI SUIS-JE&nbsp;?<span class="index1-down-hide"> &#9664;</span>
+			</div>
+			<div>
+				J’explore depuis 15 ans des pistes vers une <em>société viable</em>, <br>profondément respectueuse de l’<em>humain</em> et&nbsp;du&nbsp;<em>vivant</em>.
+			</div>
+			<div>
+				Dans une démarche <strong>holistique</strong> et <strong>systémique</strong>, je tente <br>d’articuler transformation <em>intérieure</em>, <em>sociale</em> et&nbsp;<em>écologique</em>.
+			</div>
+
+			<div>
+				Ma pratique est enracinée dans une <em>expérience solide</em> <br>et <em>variée</em> de l’accompagnement et de la coopération.
+			</div>
+		</div>
+		<div>
+			<img id="portrait-img" class="index-img" src="/static/img/leo-matteudi.jpg" alt="Léo Matteudi ({{ site.subtitle }})">
+		</div>
+	</div>
+
+	<div id="index-plus">
+		<div id="plus-title">
+			Vous souhaitez en savoir plus&nbsp;?
+		</div>
+		<div id="index-nav">
+			{%- for item in site.data.navbar -%}
+			<a id="index-nav-{{ item.ref }}" href="{{ item.link }}">{{ item.nav }}</a>
+			{%- endfor -%}
+		</div>
+	</div>
+
+</div>

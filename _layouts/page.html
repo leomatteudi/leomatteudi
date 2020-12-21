@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+<nav id="navbar">
+
+  <div><a href="/"><img id="navbar-logo" src="/static/img/logo.png" alt="{{ site.title }} ({{ site.subtitle }})"></a></div>
+
+  <div id="navbar-container">
+
+    <div id="navbar-title">
+			<div id="name">Léo&nbsp;Matteudi&nbsp;</div>
+			<div id="occupation"><span class="color1">Facilitateur</span>&nbsp;<span class="color2">de&nbsp;résilience</span></div>
+    </div>
+
+    <div id="navbar-nav">
+    	{%- for item in site.data.navbar -%}
+      <a {% if page.ref contains item.ref %}class="navbar-active"{% endif %} href="{{ item.link }}">{{ item.nav }}</a>
+      {%- endfor -%}
+    </div>
+    
+  </div>
+  
+</nav>
+
+
+
+<main id="page-article-{{ page.ref }}">
+
+    <h1>
+      {{ page.title }}
+    </h1>
+    
+    {%- if page.returntop == true -%}
+      <div id="page-returntop"><a class="button" href="javascript:history.back()">&#9666; Page précédente</a></div>
+    {%- endif -%}
+    
+    {{ content }}
+
+    {%- if page.returnbottom == true -%}
+      <div id="page-returnbottom"><a class="button" href="{{ page.permalink }}">&#9652; Haut de page</a></div>
+    {%- endif -%}
+  
+</main>
