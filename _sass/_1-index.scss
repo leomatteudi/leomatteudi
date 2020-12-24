@@ -47,8 +47,8 @@
 	font-size: 2.5rem;
 	margin-bottom: 2rem;
 	@include index1-up {
-		font-size: 2rem;
-		margin-bottom: 2rem;
+		font-size: 2.2rem;
+		margin-bottom: 2.2rem;
 	}
 	opacity: 0.35;
 	font-weight: $wbold;
@@ -113,7 +113,7 @@
 		align-self: center;
 		}
 	#mission-txt {
-		font-size: $sm;
+		font-size: 2rem;
 		em, strong {
 			color : $green;
 		}
@@ -135,7 +135,7 @@
 		}
 	}
 	#mission-img {
-		max-width: 350px;
+		max-width: 325px;
 	}
 }
 
@@ -144,7 +144,7 @@
 
 #index-services {
 	@include index1-up {
-		align-self: flex-end;
+		align-self: center;
 		margin-right: 30px
 		}
 	#services-txt {
@@ -170,7 +170,7 @@
 		}
 	}
 	#services-img {
-		max-width: 450px;
+		max-width: 500px;
 	}
 }
 
@@ -179,10 +179,10 @@
 
 #index-domaines {
 	@include index1-up {
-		align-self: flex-start;
+		align-self: center;
 		}
 	#domaines-txt {
-		font-size: $sm;
+		font-size: 2rem;
 		line-height: 1.1;
 		em, strong {
 			color: $green;
@@ -205,7 +205,7 @@
 		}
 	}
 	#domaines-img {
-		max-width: 450px;
+		max-width: 380px;
 	}
 }
 
@@ -214,7 +214,7 @@
 
 #index-portrait {
 	#portrait-txt {
-		font-size: $sm;
+		font-size: 2rem;
 		strong, em {
 			color: $blue;
 		}
