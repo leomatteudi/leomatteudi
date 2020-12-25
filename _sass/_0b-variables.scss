@@ -48,21 +48,19 @@ $stitle1: 4.95rem;
 
 /* COLORS ******************************************************/
 
-$white: #fff;
-$black: #000;
-$blue: #3876B1;
-$blued: rgb(197, 207, 221);
-$green: #439F35;
-$yellowl: #F7D358;
-$yellowd: rgb(217, 196, 133);
+$white: rgb(255, 255, 255);
+$black: rgb(0, 0, 0);
+$blue: rgb(60, 122, 177);
+$green: #48a849;
+$yellow: #F7D358;
 
 $cbg: $white;
 $ctext: $black;
 $ctitle: $blue;
 $clinkp: $blue;
-$clinka: $yellowl;
+$clinka: $yellow;
 $cbpbg: $blue;
 $cbptext: $white;
-$cbabg: $yellowl;
+$cbabg: $yellow;
 $cbatext: $black;
 $calt: $green;
