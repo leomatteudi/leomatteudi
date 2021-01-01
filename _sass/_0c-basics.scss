@@ -236,3 +236,24 @@ ul ul, ol ol {
 		margin-bottom: -1rem;
 	}
 }
+
+
+/* IMG ******************************************************/
+
+.img-div {
+	display: flex;
+}
+
+.img-legend {
+	font-size: $ss;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	opacity: 0.5;
+}
+
+.img-legendh {
+	font-size: $ss;
+	text-align: right;
+	margin-top: -0.5rem;
+	opacity: 0.5;
+}
