@@ -15,8 +15,8 @@ body {
 	align-items: center;
 	font-weight: $wlight;
 	font-size: $sm;
-	background-color: $cbg;
-	color: $ctext;
+	background-color: $white;
+	color: $black;
 }
 
 
@@ -35,23 +35,39 @@ body {
 	}
 }
 
-
 .block:nth-child(odd) {
 	align-self: flex-end;
 	h2, h3, h4, a, strong, em, i, .color {
 		color: $green;
 	}
 	button, .button {
-		color: $cbptext;
+		color: $white;
 		background-color: $green;
 		border: $green;
 	}
 	button:hover, button:focus, button:active, button.active, .button:hover, .button:focus, .button:active, .button.active {
-		color: $cbatext;
-		background-color: $cbabg;
-		border: $cbabg;
+		color: $black;
+		background-color: $yellow;
+		border: $yellow;
 	}
 }
+
+.block:last-child {
+	h2, h3, h4, a, strong, em, i, .color {
+		color: $red;
+	}
+	button, .button {
+		color: $white;
+		background-color: $red;
+		border: $red;
+	}
+	button:hover, button:focus, button:active, button.active, .button:hover, .button:focus, .button:active, .button.active {
+		color: $black;
+		background-color: $yellow;
+		border: $yellow;
+	}
+}
+
 
 
 /* PARAGRAPHS ******************************************************/
@@ -63,7 +79,7 @@ p {
 }
 
 h1 {
-	color: $ctitle;
+	color: $blue;
 	font-weight: $wbold;
 	font-size: $stitle1;
 	-webkit-hyphens: auto;
@@ -92,7 +108,7 @@ h1 {
 
 
 h2 {
-	color: $ctitle;
+	color: $blue;
 	font-weight: $wbold;
 	font-size: $stitle2;
 	margin-top: 6rem;
@@ -100,32 +116,32 @@ h2 {
 }
 
 h3 {
-	color: $ctitle;
+	color: $blue;
 	font-weight: $wbold;
 	font-size: $stitle3;
 	margin-top: 4rem;
 	margin-bottom: 1rem;
-}
-
-.h3-precision {
+	.h3-precision {
 	font-weight: $wlight;
 	font-size: 80%;
 	opacity: 0.8;
+	}
 }
 
 h4 {
-	color: $ctitle;
+	color: $blue;
 	font-weight: $wbold;
 	font-size: $stitle4;
 	margin-top: 3rem;
 	margin-bottom: 0.5rem;
-}
-
-.h4-precision {
+	.h4-precision {
 	font-weight: $wlight;
 	font-size: 90%;
 	opacity: 0.8;
+	}
 }
+
+
 
 
 /* SPANS ******************************************************/
@@ -138,28 +154,28 @@ em {
 	font-style: normal;
 }
 
-.faded {
-	opacity: 0.7;
-}
-
-.color1 {
+.blue {
 	color: $blue;
 }
 
-.color2 {
+.green {
 	color: $green;
+}
+
+.red {
+	color: $red;
 }
 
 
 /* LINKS ******************************************************/
 
 a {
-	color: $clinkp;
+	color: $blue;
 	text-decoration: underline;
 }
 
 a:hover, a:focus, a:active {
-	color: $clinka;
+	color: $yellow;
 	text-decoration: underline;
 }
 
@@ -169,31 +185,31 @@ a:hover, a:focus, a:active {
 button, .button {
 	font-size: $sbutton;
 	text-decoration: none;
-	color: $cbptext;
-	background-color: $cbpbg;
-	border: 0.1rem solid $cbpbg;
+	color: $white;
+	background-color: $blue;
+	border: 0.1rem solid $blue;
 	border-radius: 0.3rem;
 	padding: 0.7rem 1.2rem 0.6rem 1.2rem;
 }
 
 button:hover, button:focus, button:active, button.active, .button:hover, .button:focus, .button:active, .button.active {
 	text-decoration: none;
-	color: $cbatext;
-	background-color: $cbabg;
-	border: 0.1rem solid $cbabg;
+	color: $black;
+	background-color: $yellow;
+	border: 0.1rem solid $yellow;
 }
 
 .button-text {
 	margin-top: 2.5rem;
 	a {
-		color: $cbptext;
+		color: $white;
 	}
 }
 
 .button-title {
 	margin-top: 2rem;
 	a {
-		color: $cbptext;
+		color: $white;
 	}
 }
 

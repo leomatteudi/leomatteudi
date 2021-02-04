@@ -10,11 +10,8 @@ title: Témoi&shy;gna&shy;ges
 
 {%- for item in site.data.temoignages -%}
 <div class="temoignage-div block">
-  <h3>
-    {{ item.name }}{% if item.occupation %}<span class="h3-precision"> • {{ item.occupation }}</span>{% endif %}
-  </h3>
   <p class="temoignage-text">
-    «&nbsp;{{ item.text }}&nbsp;»
+		«&nbsp;{{ item.text }}&nbsp;»
   </p>
 </div>
 {%- endfor -%}
