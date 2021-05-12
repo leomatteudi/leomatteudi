@@ -1,9 +1,9 @@
-- ref: psychotherapie
-  link: /psychotherapie
-  nav: Thérapie
-- ref: facilitation
-  link: /facilitation
-  nav: Facilitation
+- ref: individus
+  link: /individus
+  nav: Individus
+- ref: organisations
+  link: /organisations
+  nav: Organisations
 - ref: evenements
   link: /evenements
   nav: Événements
