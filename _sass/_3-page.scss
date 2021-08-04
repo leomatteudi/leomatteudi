@@ -1,0 +1,13 @@
+main {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	text-align: justify;
+	max-width: $bp1-up;
+	padding: 2rem;
+	margin-top: 1rem;
+	@include bp1-up {
+		margin-bottom: 5rem;
+	}
+}

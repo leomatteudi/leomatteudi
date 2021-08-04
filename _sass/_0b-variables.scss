@@ -1,0 +1,56 @@
+/* MEDIA QUERIES ******************************************************/
+
+$bp1-up: 900px;
+$bp1-down: 900px - 0.02px;
+@mixin bp1-up {@media (min-width: $bp1-up) {@content;}};
+@mixin bp1-down {@media (max-width: $bp1-down) {@content;}};
+
+$bp2-up: 650px;
+$bp2-down: 650px - 0.02px;
+@mixin bp2-up {@media (min-width: $bp2-up) {@content;}};
+@mixin bp2-down {@media (max-width: $bp2-down) {@content;}};
+
+$block: 740px;
+$block-up: 740px;
+$block-down: 740px - 0.02px;
+@mixin block-up {@media (min-width: $block-up) {@content;}};
+@mixin block-down {@media (max-width: $block-down) {@content;}};
+
+$index1: 1100px;
+$index1-up: 1100px;
+$index1-down: 1100px - 0.02px;
+@mixin index1-up {@media (min-width: $index1-up) {@content;}};
+@mixin index1-down {@media (max-width: $index1-down) {@content;}};
+
+$index2: 445px;
+$index2-up: 445px;
+$index2-down: 445px - 0.02px;
+@mixin index2-up {@media (min-width: $index2-up) {@content;}};
+@mixin index2-down {@media (max-width: $index2-down) {@content;}};
+
+/* FONTS ******************************************************/
+
+$font: 'Lato', Arial, sans-serif;
+
+$wlight: 300;
+$wbold: 700;
+
+$sxs: 1.3rem;
+$ss: 1.6rem;
+$sm: 1.9rem;
+$sb: 2.2rem;
+$sbutton: 1.9rem;
+$stitle4: 2.2rem;
+$stitle3: 2.9rem;
+$stitle2: 3.5rem;
+$stitle1: 4.95rem;
+
+
+/* COLORS ******************************************************/
+
+$white: rgb(255, 255, 255);
+$black: rgb(0, 0, 0);
+$blue: #3e7bb3;
+$green: #48a849;
+$red: #d54246;
+$yellow: #F7D358;

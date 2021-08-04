@@ -1,0 +1,199 @@
+/* MAIN ************************************************/
+
+#main-index {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	max-width: 800px;
+	@include index1-up {
+		max-width: $index1;
+	}
+	padding: 5rem 3rem;
+	font-size: $sm;
+	@include bp2-up {
+		padding: 10rem 1rem;
+		font-size: $sb;
+	}
+	a, a:hover, a:focus, a:active {
+		text-decoration: none;
+	}
+}
+
+
+/* INDEX0 ************************************************/
+
+#index0 {
+	margin-bottom: 5rem;
+	#logo {
+		width: 80%;
+		max-width: 39rem;
+	}
+	#name {
+		font-size: 11.25vw;
+		margin-top: -1.5vw;
+		@media (min-width: 435px) {
+			font-size: 6rem;
+			margin-top: -1rem;
+		}
+	}
+	#occupation {
+		font-weight: $wbold;
+		font-size: 7.5vw;
+		margin-top: -1.5vw;
+		@media (min-width: 435px) {
+			font-size: 4rem;
+			margin-top: -1rem;
+		}
+	}
+	#slogan {
+		font-style: italic;
+		font-size: 5.5vw;
+		margin-top: 3rem;
+		@media (min-width: 435px) {
+			font-size: 2.2rem;
+			margin-top: 0;
+		}
+	}
+}
+
+.index-scroll {
+	font-size: 3rem;
+	opacity: 0.7;
+	@include index1-up {
+		display: none;
+	}
+}
+
+
+/* BLOCKS ************************************************/
+
+.index-block {
+	margin-top: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	@include index1-up {
+		margin-top: 10rem;
+		flex-direction: row;
+		align-self: center;
+	}
+	.index-block-txt {
+		p {
+			text-align: justify;
+			font-size: 2rem;
+			margin-bottom: 2.5rem;
+			em {
+				font-style: italic;
+			}
+		}
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
+	.index-block-img {
+		width: 100%;
+		border-radius: 0.4rem;
+		@include index1-down {
+			margin-top: 5rem;
+			margin-right: 0;
+			margin-left: 0;
+		}
+	}
+}
+
+
+/* INDEX1 ************************************************/
+
+#index1 {
+	.index-block-txt {
+		max-width: 500px;
+		em, strong {
+			color : $green;
+		}
+		@include index1-up {
+			order: 2;
+			margin-left: 3rem;
+		}
+	}
+	.index-block-img {
+		max-height: 280px;
+	}
+}
+
+
+/* INDEX2 ************************************************/
+
+#index2 {
+	.index-block-txt {
+		max-width: 500px;
+		em, strong {
+			color: $red;
+		}
+		@include index1-up {
+			margin-right: 3rem;
+		}
+	}
+	.index-block-img {
+		max-height: 320px;
+	}
+}
+
+
+/* INDEX3 ************************************************/
+
+#index3 {
+	.index-block-txt {
+		max-width: 500px;
+		strong, em {
+			color: $blue;
+		}
+		@include index1-up {
+			order: 2;
+			margin-left: 3rem;
+		}
+	}
+	.index-block-img {
+		max-height: 300px;
+	}
+}
+
+
+/* INDEX4 ************************************************/
+
+#index4 {
+	margin-top: 5rem;
+	@include index1-up {
+		margin-top: 15rem;
+	}
+	#index4-title {
+		font-size: 3rem;
+		margin-bottom: 1rem;
+	}
+	#index-nav {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		@include bp2-down {
+			 max-width: 350px;
+		 }
+		@include bp2-up {
+			 max-width: 450px;
+		}
+		a {
+			font-size: 2.5rem;
+			margin: 0.5rem;
+			color: $white;
+			background-color: $red;
+			border-radius: 0.3rem;
+			padding: 0.8rem 1.2rem 0.8rem 1.2rem;
+		}
+		a:hover, a:focus, a:active {
+			background-color: $yellow;
+			color: $black;
+			text-decoration: none;
+		}
+	}
+}

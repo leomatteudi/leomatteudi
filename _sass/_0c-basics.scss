@@ -1,0 +1,307 @@
+/* BASICS ************************************************/
+
+html {
+	font-family: $font;
+	font-size: 8px;
+	@include bp2-up {
+		font-size: 10px;
+	}
+}
+
+body {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-weight: $wlight;
+	font-size: $sm;
+	background-color: $white;
+	color: $black;
+}
+
+
+/* BLOCKS ******************************************************/
+
+.block {
+	text-align: justify;
+	max-width: $block;
+	h2, h3, h4, a, strong, em, i, .color {
+		color: $blue;
+	}
+	.br-hide {
+		@include block-down {
+			display: none;
+		}
+	}
+}
+
+.block:nth-child(odd) {
+	align-self: flex-end;
+}
+
+.block:nth-child(3n+3) {
+	h2, h3, h4, a, strong, em, i, .color {
+		color: $green;
+	}
+	button, .button {
+		color: $white;
+		background-color: $green;
+		border: $green;
+	}
+	button:hover, button:focus, button:active, button.active, .button:hover, .button:focus, .button:active, .button.active {
+		color: $black;
+		background-color: $yellow;
+		border: $yellow;
+	}
+}
+
+.block:nth-child(3n+4) {
+	h2, h3, h4, a, strong, em, i, .color {
+		color: $red;
+	}
+	button, .button {
+		color: $white;
+		background-color: $red;
+		border: $red;
+	}
+	button:hover, button:focus, button:active, button.active, .button:hover, .button:focus, .button:active, .button.active {
+		color: $black;
+		background-color: $yellow;
+		border: $yellow;
+	}
+	a:hover, a:focus, a:active {
+		color: $yellow;
+		text-decoration: underline;
+	}
+}
+
+
+
+/* PARAGRAPHS ******************************************************/
+
+p {
+	font-weight: $wlight;
+	font-size: $sm;
+	margin-bottom: 1.2rem;
+}
+
+h1 {
+	color: $blue;
+	font-weight: $wbold;
+	font-size: $stitle1;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
+	hyphens: auto;
+}
+
+.intro {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	font-size: $sb;
+	max-width: 600px;
+	div:not(:last-child) {
+		margin-bottom: 1rem;
+	}
+}
+
+.intro-img {
+	width: 100%;
+	max-width: 560px;
+	border-radius: 0.4rem;
+	margin-top: 0rem;
+	margin-bottom: 0.5rem;
+}
+
+
+h2 {
+	color: $blue;
+	font-weight: $wbold;
+	font-size: $stitle2;
+	margin-top: 6rem;
+	margin-bottom: 1.25rem;
+}
+
+h3 {
+	color: $blue;
+	font-weight: $wbold;
+	font-size: $stitle3;
+	margin-top: 4rem;
+	margin-bottom: 1rem;
+	.h3-precision {
+	font-weight: $wlight;
+	font-size: 80%;
+	opacity: 0.8;
+	}
+}
+
+h4 {
+	color: $blue;
+	font-weight: $wbold;
+	font-size: $stitle4;
+	margin-top: 3rem;
+	margin-bottom: 0.5rem;
+	.h4-precision {
+	font-weight: $wlight;
+	font-size: 90%;
+	opacity: 0.8;
+	}
+}
+
+
+
+
+/* SPANS ******************************************************/
+
+strong {
+	font-weight: $wbold;
+}
+
+em {
+	font-style: italic;
+}
+
+.blue {
+	color: $blue;
+}
+
+.green {
+	color: $green;
+}
+
+.red {
+	color: $red;
+}
+
+
+/* LINKS ******************************************************/
+
+a {
+	color: $blue;
+	text-decoration: underline;
+}
+
+a:hover, a:focus, a:active {
+	color: $yellow;
+	text-decoration: underline;
+}
+
+
+/* BUTTONS ******************************************************/
+
+button, .button {
+	font-size: $sbutton;
+	text-decoration: none;
+	color: $white;
+	background-color: $blue;
+	border: 0.1rem solid $blue;
+	border-radius: 0.3rem;
+	padding: 0.7rem 1.2rem 0.6rem 1.2rem;
+}
+
+#button-black {
+	background-color: $black;
+	border: $black;
+	opacity: 0.7;
+}
+
+button:hover, button:focus, button:active, button.active, .button:hover, .button:focus, .button:active, .button.active, #button-black:hover, #button-black:focus, #button-black:active {
+	text-decoration: none;
+	color: $black;
+	background-color: $yellow;
+	border: 0.1rem solid $yellow;
+	opacity: 1;
+}
+
+.button-text {
+	margin-top: 2.5rem;
+	a {
+		color: $white;
+	}
+}
+
+.button-title {
+	margin-top: 2rem;
+	a {
+		color: $white;
+	}
+}
+
+.button-right {
+	text-align: right;
+}
+
+.button-line {
+	display: flex;
+	flex-wrap: wrap;
+	a {
+		margin-top: -0.5rem;
+		margin-right: 1rem;
+		margin-bottom: 1.5rem;
+	}
+	a:last-child {
+		margin-right: 0;
+	}
+}
+
+.button-last {
+	margin-top: 4rem;
+	text-align: right;
+	a {
+		color: $white;
+		background-color: $black;
+		border: $black;
+		opacity: 0.7;
+	}
+	a:hover, a:focus, a:active {
+		color: $black;
+		background-color: $yellow;
+		border-color: $yellow;
+		opacity: 1;
+	}
+}
+
+.button-returntop {
+	margin-top: 2rem;
+	text-align: left;
+}
+
+
+/* LISTS ******************************************************/
+
+ul, ol {
+	list-style-position: outside;
+	list-style-type: disc, circle;
+	margin: 0rem 0rem 1rem 2rem;
+}
+
+ul ul li, ol ol li {
+	margin-left: 3rem;
+}
+
+ul ul, ol ol {
+	:last-child {
+		margin-bottom: -1rem;
+	}
+}
+
+
+/* IMG ******************************************************/
+
+.img-div {
+	display: flex;
+}
+
+.img-legend {
+	font-size: $ss;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	opacity: 0.5;
+}
+
+.img-legendh {
+	font-size: $ss;
+	text-align: right;
+	margin-top: -0.5rem;
+	opacity: 0.5;
+}

@@ -1,0 +1,80 @@
+---
+layout: default
+ref: index
+permalink: /
+description: "Accompagnements pour une transformation intérieure, sociale & écologique"
+---
+
+<div id="main-index">
+
+	<div id="index0">
+		<div>
+			<img id="logo" src="/static/img/logo.png" alt="{{ site.title }} ({{ site.subtitle }})">
+		</div>
+		<div id="name">
+			Léo Matteudi
+		</div>
+		<div id="occupation">
+			<span class="blue">Facilitateur</span>&nbsp;<span class="green">de&nbsp;résilience</span>
+		</div>
+		<div id="slogan">
+			Pour une transformation intérieure, sociale&nbsp;&&nbsp;écologique
+		</div>
+	</div>
+
+	<div class="index-scroll">▽</div>
+
+	<div id="index1" class="index-block">
+		<div class="index-block-txt">
+			<p>
+				<em>Face à la gravité, à l’urgence et à la complexité de la crise planétaire, chacun·e porte en soi un fragment de solution.</em>
+			</p>
+			<p>
+				J’aide celles et ceux qui veulent <strong>agir</strong> avec <strong>lucidité</strong> et <strong>créativité</strong> pour contribuer à reprendre en main notre <strong>destin commun</strong> et rendre possible un <strong>avenir désirable</strong>.
+			</p>
+		</div>
+		<div>
+			<img class="index-block-img" src="/static/img/transitions-beriou.jpg" alt="Transitions © Bériou">
+		</div>
+	</div>
+
+	<div id="index2" class="index-block">
+		<div class="index-block-txt">
+			<p>
+				Je propose des <strong>accompagnements individuels</strong> <em>(ainsi que des expériences de groupe)</em>, qui combinent la profondeur de la <strong>psychothérapie</strong> et le pragmatisme du <strong>coaching</strong>, en s’appuyant sur la sagesse du <strong>corps</strong> et la puissance transformatrice des états modifiés de&nbsp;<strong>conscience</strong>.
+			</p>
+			<p>
+				<em>Pour se reconnecter au vivant qui nous anime, nous relie et nous nourrit. Pour prendre soin de soi tout en prenant soin du monde. Pour ralentir, ressentir, et mieux agir.</em>
+			</p>
+		</div>
+		<div>
+			<img class="index-block-img" src="/static/img/transition-luisarivera.jpg" alt="Transition © Luisa Rivera">
+		</div>
+	</div>
+
+	<div id="index3" class="index-block">
+		<div class="index-block-txt">
+			<p>
+				<em>Psychologie humaniste & transpersonnelle, permaculture, éducation populaire, création artistique, intelligence collective, santé naturelle...</em>
+			</p>
+			<p>
+				Mon approche <strong>holistique</strong> et <strong>intégrative</strong> est le fruit de <strong>15&nbsp;ans</strong> de recherches, expériences et formations sur les pistes d’une société viable, profondément respectueuse de l’<strong>humain</strong> et&nbsp;du&nbsp;<strong>vivant</strong>.
+			</p>
+		</div>
+		<div>
+			<img class="index-block-img" src="/static/img/leo-matteudi.jpg" alt="Léo Matteudi ({{ site.subtitle }})">
+		</div>
+	</div>
+
+	<div id="index4">
+		<div id="index4-title">
+			Pour en savoir plus
+		</div>
+		<div id="index-nav">
+			{%- for item in site.data.navbar -%}
+			<a id="index-nav-{{ item.ref }}" href="{{ item.link }}">{{ item.nav }}</a>
+			{%- endfor -%}
+		</div>
+	</div>
+
+</div>

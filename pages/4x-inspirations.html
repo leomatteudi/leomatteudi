@@ -1,0 +1,28 @@
+---
+ref: inspirations
+permalink: /inspirations
+title: Inspira&shy;tions
+---
+
+
+<div class="block intro">
+  <div class="img-div">
+    <img class="intro-img" src="/static/img/ecocite-richardregister.jpg" alt="© Richard Register">
+    <div class="img-legend">© Richard Register</div>
+  </div>
+  <div>
+    {% include returntop.html %}
+  </div>
+</div>
+
+
+{%- assign content=site.content | where:"category", page.ref -%}
+
+{%- for item in content -%}
+  <div class="inspirations-div block">
+    <h2 class="tabtitle">{{ item.tabtitle }}</h2>
+    {{ item.content }}
+  </div>
+{%- endfor -%}
+
+{% include returnbottom.html %}

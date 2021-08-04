@@ -1,0 +1,31 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'fr' }}">
+
+<head>
+    
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  {%- if page.ref == "index" -%}
+  <title>{{ site.title }} • {{ site.subtitle }}</title>
+  {%- else -%}
+  <title>{{ page.title }} • {{ site.title }}</title>
+  {%- endif -%}
+  
+  {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
+  
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,300i,700&display=swap">
+  <script src="/prefixfree.min.js"></script>
+  <script src="/prefixfree.viewport-units.js" defer></script>
+  
+</head>
+
+<body>
+  {{ content }}
+</body>
+
+</html>

@@ -1,0 +1,70 @@
+/* QUI SUIS-JE ? ************************************************/
+
+#qui-img {
+	max-width: 450px;
+}
+
+
+/* TEMOIGNAGES ************************************************/
+
+.temoignage-div {
+	margin-top: 3rem;
+	font-style: italic;
+}
+
+/* EVENEMENT ************************************************/
+
+#page-article-evenements {
+	.intro {
+		font-size: $sm;
+		em {
+			font-style: normal;
+		}
+	}
+}
+
+
+/* CONTACT ************************************************/
+
+#contact-form-div {
+	width: 100%;
+}
+
+#contact-form {
+	display: flex;
+	flex-direction: column;
+	.contact-form-input {
+		padding: 0.7rem 1.2rem 0.6rem 1.2rem;
+		width: 100%;
+		border: 0.1rem solid;
+		border-radius: 0.3rem;
+		box-shadow: none;
+	}
+	#contact-form-message {
+		height: 200px;
+	}
+	#contact-form-container {
+		margin-top: 1rem;
+		display: flex;
+		flex-wrap: wrap;
+		#contact-form-email, #contact-form-button {
+			margin-bottom: 1rem;
+		}
+		@media (min-width: 300px) {
+			flex-wrap: nowrap;
+			#contact-form-button {
+				margin-left: 1rem;
+			}
+		}
+	}
+}
+
+#legal {
+	h2 {
+		font-size: $stitle4;
+		margin-bottom: 0.8rem;
+	}
+	p {
+		font-size: $ss;
+	}
+}

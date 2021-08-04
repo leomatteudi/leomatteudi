@@ -1,0 +1,95 @@
+/* NAVBAR ************************************************/
+
+#navbar {
+	width: 100%;
+	max-width: $bp1-up;
+	padding: 2rem;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	@include bp2-down {
+		margin-bottom: 5vw;
+	}
+	@include bp1-down {
+		text-align: center;
+	}
+	@include bp2-up {
+		margin-top: 2rem;
+	}
+	@include bp1-up {
+		flex-direction: row;
+		justify-content: center;
+		margin-top: 5rem;
+	}
+	a, a:hover, a:focus, a:active {
+		text-decoration: none;
+	}
+}
+
+#navbar-logo {
+	margin-top: 3rem;
+	height: 20rem;
+	@include bp1-up {
+		margin-top: 0rem;
+		height: 11rem;
+		margin-right: 2rem;
+	}
+}
+
+#navbar-container {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+#navbar-title {
+	display: flex;
+	@include bp1-down {
+		flex-direction: column;
+		#name {
+			font-size: 4rem;
+		}
+		#occupation {
+			font-size: 2.66rem;
+			font-weight: $wbold;
+		}
+	}
+	@include bp1-up {
+		justify-content: flex-start;
+		font-size: 3.6rem;
+		font-weight: $wbold;
+	}
+}
+
+
+/* NAVBAR-NAV ************************************************/
+
+#navbar-nav {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	a {
+		color: $black;
+		opacity: 0.5;
+	}
+	a:hover, a:focus, a:active, .navbar-active {
+		color: $black;
+		opacity: 1;
+	}
+	@include bp1-down {
+		font-size: 2.3rem;
+		margin-top: 2rem;
+		margin-bottom: 4rem;
+		max-width: 50rem;
+		a {
+			margin-bottom: 0.5rem;
+			margin-right: 1.5rem;
+		}
+	}
+	@include bp1-up {
+		font-size: 1.95rem;
+		a:not(:last-child) {
+			margin-right: 0.5rem;
+		}
+	}
+}

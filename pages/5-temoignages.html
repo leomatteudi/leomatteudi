@@ -1,0 +1,17 @@
+---
+ref: temoignages
+permalink: /temoignages
+title: Témoi&shy;gna&shy;ges
+---
+
+<div class="block">
+	&nbsp;
+</div>
+
+{%- for item in site.data.temoignages -%}
+<div class="temoignage-div block">
+  <p class="temoignage-text">
+		«&nbsp;{{ item.text }}&nbsp;»
+  </p>
+</div>
+{%- endfor -%}
