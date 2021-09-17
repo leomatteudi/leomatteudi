@@ -2,6 +2,7 @@
 category: inspirations
 ref: inspirations-sante
 tabtitle: Santé naturelle
+color: green
 ---
 
 **Mode de vie & alimentation ancestraux**

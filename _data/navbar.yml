@@ -1,10 +1,10 @@
-- ref: accompagnements
-  link: /accompagnements
-  nav: Accompagnements
+- ref: pourqui
+  link: /pour-qui
+  nav: Pour&nbsp;qui&nbsp;?
 - ref: approche
   link: /approche
   nav: Approche
-- ref: qui
+- ref: quisuisje
   link: /qui-suis-je
   nav: Qui&nbsp;suis&#8209;je&nbsp;?
 - ref: temoignages

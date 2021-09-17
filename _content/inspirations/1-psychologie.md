@@ -2,6 +2,7 @@
 category: inspirations
 ref: inspirations-psychologie
 tabtitle: Psychologie •&nbsp;Spiritualité
+color: blue
 ---
 
 **Psychothérapies humanistes & transpersonnelles**

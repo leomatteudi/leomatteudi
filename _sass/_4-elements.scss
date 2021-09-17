@@ -1,8 +1,23 @@
 
-/* ACCOMPAGNEMETS ************************************************/
+/* POUR QUI ? ************************************************/
 
 #accompagnements-img {
 	max-width: 600px;
+}
+
+#pourqui1 {
+	margin-top: 4rem;
+}
+
+.pourqui {
+	margin-top: 0.3rem;
+}
+
+#pourqui-end {
+	margin-top: 4rem;
+	p {
+		font-size: $sb;
+	}
 }
 
 /* QUI SUIS-JE ? ************************************************/
@@ -19,14 +34,19 @@
 	font-style: italic;
 }
 
-/* EVENEMENT ************************************************/
 
-#page-article-evenements {
-	.intro {
+/* EVENEMENTS ************************************************/
+
+#evenements-passes {
+	h2 {
+		font-size: $stitle3;
+	}
+	h4 {
 		font-size: $sm;
-		em {
-			font-style: normal;
-		}
+	}	
+	p {
+		font-size: $ss;
+		font-style: italic;
 	}
 }
 

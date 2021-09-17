@@ -46,6 +46,12 @@
 			font-size: 4rem;
 			margin-top: -1rem;
 		}
+		#occupation1 {
+			color: $blue;
+		}
+		#occupation2 {
+			color: $green;
+		}
 	}
 	#slogan {
 		font-style: italic;
@@ -110,9 +116,6 @@
 #index1 {
 	.index-block-txt {
 		max-width: 500px;
-		em, strong {
-			color : $green;
-		}
 		@include index1-up {
 			order: 2;
 			margin-left: 3rem;
@@ -129,9 +132,6 @@
 #index2 {
 	.index-block-txt {
 		max-width: 614px;
-		em, strong {
-			color: $red;
-		}
 		@include index1-up {
 			margin-right: 3rem;
 		}
@@ -147,9 +147,6 @@
 #index3 {
 	.index-block-txt {
 		max-width: 500px;
-		strong, em {
-			color: $blue;
-		}
 		@include index1-up {
 			order: 2;
 			margin-left: 3rem;
@@ -177,10 +174,10 @@
 		flex-wrap: wrap;
 		justify-content: center;
 		@include bp2-down {
-			 max-width: 350px;
+			 max-width: 400px;
 		 }
 		@include bp2-up {
-			 max-width: 450px;
+			 max-width: 500px;
 		}
 		a {
 			font-size: 2.5rem;

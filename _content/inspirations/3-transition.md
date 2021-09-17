@@ -2,6 +2,7 @@
 category: inspirations
 ref: inspirations-transition
 tabtitle: Transition •&nbsp;Permaculture
+color: green
 ---
 
 **Transition**

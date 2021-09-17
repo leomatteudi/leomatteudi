@@ -2,6 +2,7 @@
 category: inspirations
 ref: inspirations-facilitation
 tabtitle: Facilitation •&nbsp;Démocratie
+color: red
 ---
 
 **Facilitation • Médiation**

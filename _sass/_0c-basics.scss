@@ -25,49 +25,35 @@ body {
 .block {
 	text-align: justify;
 	max-width: $block;
-	h2, h3, h4, a, strong, em, i, .color {
-		color: $blue;
-	}
-	.br-hide {
-		@include block-down {
-			display: none;
-		}
-	}
 }
 
 .block:nth-child(odd) {
 	align-self: flex-end;
 }
 
-.block:nth-child(3n+3) {
+.blue {
 	h2, h3, h4, a, strong, em, i, .color {
-		color: $green;
+		color: $blue;
 	}
-	button, .button {
-		color: $white;
-		background-color: $green;
-		border: $green;
-	}
-	button:hover, button:focus, button:active, button.active, .button:hover, .button:focus, .button:active, .button.active {
-		color: $black;
-		background-color: $yellow;
-		border: $yellow;
+	a:hover, a:focus, a:active {
+		color: $yellow;
+		text-decoration: underline;
 	}
 }
 
-.block:nth-child(3n+4) {
+.green {
+	h2, h3, h4, a, strong, em, i, .color {
+		color: $green;
+	}
+	a:hover, a:focus, a:active {
+		color: $yellow;
+		text-decoration: underline;
+	}
+}
+
+.red {
 	h2, h3, h4, a, strong, em, i, .color {
 		color: $red;
-	}
-	button, .button {
-		color: $white;
-		background-color: $red;
-		border: $red;
-	}
-	button:hover, button:focus, button:active, button.active, .button:hover, .button:focus, .button:active, .button.active {
-		color: $black;
-		background-color: $yellow;
-		border: $yellow;
 	}
 	a:hover, a:focus, a:active {
 		color: $yellow;
@@ -113,9 +99,11 @@ h1 {
 	margin-bottom: 0.5rem;
 }
 
+.wotitle {
+	margin-top: 3rem;
+}
 
 h2 {
-	color: $blue;
 	font-weight: $wbold;
 	font-size: $stitle2;
 	margin-top: 6rem;
@@ -123,7 +111,6 @@ h2 {
 }
 
 h3 {
-	color: $blue;
 	font-weight: $wbold;
 	font-size: $stitle3;
 	margin-top: 4rem;
@@ -136,7 +123,6 @@ h3 {
 }
 
 h4 {
-	color: $blue;
 	font-weight: $wbold;
 	font-size: $stitle4;
 	margin-top: 3rem;
@@ -161,31 +147,6 @@ em {
 	font-style: italic;
 }
 
-.blue {
-	color: $blue;
-}
-
-.green {
-	color: $green;
-}
-
-.red {
-	color: $red;
-}
-
-
-/* LINKS ******************************************************/
-
-a {
-	color: $blue;
-	text-decoration: underline;
-}
-
-a:hover, a:focus, a:active {
-	color: $yellow;
-	text-decoration: underline;
-}
-
 
 /* BUTTONS ******************************************************/
 
@@ -193,16 +154,11 @@ button, .button {
 	font-size: $sbutton;
 	text-decoration: none;
 	color: $white;
-	background-color: $blue;
-	border: 0.1rem solid $blue;
+	background-color: $black;
+	opacity: 0.7;
+	border: 0.1rem solid $black;
 	border-radius: 0.3rem;
 	padding: 0.7rem 1.2rem 0.6rem 1.2rem;
-}
-
-#button-black {
-	background-color: $black;
-	border: $black;
-	opacity: 0.7;
 }
 
 button:hover, button:focus, button:active, button.active, .button:hover, .button:focus, .button:active, .button.active, #button-black:hover, #button-black:focus, #button-black:active {
@@ -213,55 +169,12 @@ button:hover, button:focus, button:active, button.active, .button:hover, .button
 	opacity: 1;
 }
 
-.button-text {
-	margin-top: 2.5rem;
-	a {
-		color: $white;
-	}
-}
-
-.button-title {
-	margin-top: 2rem;
-	a {
-		color: $white;
-	}
-}
-
-.button-right {
-	text-align: right;
-}
-
-.button-line {
-	display: flex;
-	flex-wrap: wrap;
-	a {
-		margin-top: -0.5rem;
-		margin-right: 1rem;
-		margin-bottom: 1.5rem;
-	}
-	a:last-child {
-		margin-right: 0;
-	}
-}
-
-.button-last {
+.button-end {
 	margin-top: 4rem;
 	text-align: right;
-	a {
-		color: $white;
-		background-color: $black;
-		border: $black;
-		opacity: 0.7;
-	}
-	a:hover, a:focus, a:active {
-		color: $black;
-		background-color: $yellow;
-		border-color: $yellow;
-		opacity: 1;
-	}
 }
 
-.button-returntop {
+.button-start {
 	margin-top: 2rem;
 	text-align: left;
 }

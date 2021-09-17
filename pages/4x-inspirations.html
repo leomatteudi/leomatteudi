@@ -19,7 +19,7 @@ title: Inspira&shy;tions
 {%- assign content=site.content | where:"category", page.ref -%}
 
 {%- for item in content -%}
-  <div class="inspirations-div block">
+  <div class="inspirations-div block {{ item.color }}">
     <h2 class="tabtitle">{{ item.tabtitle }}</h2>
     {{ item.content }}
   </div>

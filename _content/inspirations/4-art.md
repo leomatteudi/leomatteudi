@@ -2,6 +2,7 @@
 category: inspirations
 ref: inspirations-art
 tabtitle: Art •&nbsp;Créativité
+color: blue
 ---
 
 **Clown**
