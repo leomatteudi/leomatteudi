@@ -8,7 +8,6 @@ color: blue
 **Psychothérapies humanistes & transpersonnelles**
 Process Work / Arnold & Amy Mindell
 Respiration Holotropique / Stanislav Grof
-Psychothérapie assistée par les psychédéliques
 Thérapies psycho-corporelles
 Approche Centrée sur la Personne / Carl Rogers
 Maïeusthésie / Thierry Tournebise
