@@ -1,7 +1,7 @@
 ---
 category: inspirations
 ref: inspirations-facilitation
-tabtitle: Facilitation •&nbsp;Démocratie
+tabtitle: Facilitation •&nbsp;Coopération
 color: red
 ---
 
