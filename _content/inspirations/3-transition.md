@@ -10,7 +10,6 @@ Villes et territoires en transition / Rob Hopkins, *Manuel de transition*
 Décroissance / Ivan Illich, Serge Latouche, Paul Ariès
 Collapsologie & résilience / Pablo Servigne, Arthur Keller
 Simplicité volontaire & sobriété heureuse
-Charles Eisenstein, *Le plus beau monde que nos coeurs savent possible*
 Résistance climatique
 
 **Permaculture** / Bill Mollison, David Holmgren, Toby Hemenway, Rosemary Morrow, Éric Escoffier, Franck Nathié

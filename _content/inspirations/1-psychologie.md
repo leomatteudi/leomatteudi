@@ -5,10 +5,9 @@ tabtitle: Psychologie •&nbsp;Spiritualité
 color: blue
 ---
 
-**Psychothérapies humanistes & transpersonnelles**
+**Psychothérapies humanistes, psycho-corporelles & transpersonnelles**
 Process Work / Arnold & Amy Mindell
-Respiration Holotropique / Stanislav Grof
-Thérapies psycho-corporelles
+Respiration Holotropique / Stanislav & Christina Grof
 Approche Centrée sur la Personne / Carl Rogers
 Maïeusthésie / Thierry Tournebise
 Gestalt-thérapie
@@ -16,17 +15,11 @@ Gestalt-thérapie
 **Chamanisme** (dans ses multiples traditions)
 
 **Traumatismes & système nerveux**
+PSIP / Saj Razvi
 Somatic Experiencing / Peter Levine
-NARM / Laurence Heller & Aline LaPierre, *Guérir les traumatismes du développement*
-Somatic Practice / Kathy Kain & Stephen Terrell, *Nurturing Resilience*
+NARM / Laurence Heller & Aline LaPierre
+Somatic Practice / Kathy Kain & Stephen Terrell
 Gabor Maté
-
-**Hypersensibilité • Haut potentiel • Multipotentiel**
-Théorie de la désintégration positive / Kazimierz Dabrowsky
-Elaine N. Aron, *Hypersensibles : mieux se comprendre, mieux s’accepter*
-Jeanne Siaud-Facchin, *Trop intelligent pour être heureux ?*
-Cécile Bost, *Différence et souffrance de l’adulte surdoué*
-Emily Wapnick, *How to Be Everything*
 
 **Autres approches thérapeutiques**
 Alice Miller
@@ -39,9 +32,9 @@ Internal Family Systems / Richard Schwartz
 Psychothérapie institutionnelle
 
 **Amour • Sexualité**
-Polyamour / Dossie Easton & Janet Hardy, *La salope éthique*
-Tantra & sexualité sacrée / Jacques Ferber, *L’amant tantrique*
-Mouvement LGBTQI+
+Polyamour & non-exclusivité
+Tantra & sexualité sacrée
+Mouvement LGBTQIA+
 
 **Spiritualité**
 Hermann Hesse, *Siddhartha*
@@ -50,3 +43,4 @@ Tosha Silver, *S’offrir le bonheur d’exister&nbsp;: laissez le divin ouvrir 
 Maïti Girtanner, *Même les bourreaux ont une âme*
 Robert Bly, *L’homme sauvage et l’enfant*
 Clarissa Pinkola Estés, *Femmes qui courent avec les loups*
+Charles Eisenstein
