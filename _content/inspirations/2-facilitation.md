@@ -9,7 +9,7 @@ color: red
 Process Work & Deep Democracy / Arnold & Amy Mindell
 Approche Centrée sur la Personne / Carl Rogers
 Communication Non-Violente / Marshall Rosenberg
-Justice restaurative & cercles restauratifs / Dominic Barter
+Justice restaurative & systèmes/cercles restauratifs / Dominic Barter
 Thérapie sociale / Charles Rojzman
 Circling & Authentic Relating
 Forum ouvert / Harrison Owen
@@ -20,7 +20,7 @@ Pratiques de l’autogestion et de l’auto-organisation
 Mouvements citoyens / Indignés, Occupy, Nuit debout, Gilets jaunes...
 Déconstruction des opressions systémiques (sexisme, racisme, âgisme...)
 Désobéissance civile
-Saul Alinsky, *Être radical&nbsp;: manuel pragmatique pour radicaux réalistes*
+Saul Alinsky
 Alain Damasio
 Artivisme & clown-activisme / John Jordan
 

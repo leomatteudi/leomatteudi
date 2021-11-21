@@ -18,11 +18,10 @@ Gestalt-thérapie
 PSIP / Saj Razvi
 Somatic Experiencing / Peter Levine
 NARM / Laurence Heller & Aline LaPierre
-Somatic Practice / Kathy Kain & Stephen Terrell
+Somatic Practice / Kathy Kain
 Gabor Maté
 
 **Autres approches thérapeutiques**
-Alice Miller
 Hypnose / Milton Erickson, François Roustang
 Constellations familiales / Bert Hellinger
 Écologie intérieure / Yann Thibaud

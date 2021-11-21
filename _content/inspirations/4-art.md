@@ -5,15 +5,6 @@ tabtitle: Art •&nbsp;Créativité
 color: blue
 ---
 
-**Clown**
-Clown-Gestalt / Rosine Rochette
-Éric Blouet
-Richard Potchinko / V. Coburn & S. Morrison, *Clown Through Mask*
-Giovanni Fusetti
-François Cervantès & Catherine Germain, *Le clown Arletti*
-Louise Peacock, *Serious Play: Modern Clown Performance*
-Théâtre physique / Jacques Lecoq
-
 **Danse • Mouvement • Intelligence somatique**
 Contact Improvisation / Steve Paxton & co
 Composition instantanée / Mark Tompkins
@@ -23,6 +14,15 @@ Mouvement régénérateur (Katsugen Undo) / Haruchika Noguchi, Itsuo Tsuda
 Mouvement authentique / Mary Starks Whitehouse
 Body-Mind Centering / Bonnie Bainbridge Cohen
 Eutonie / Gerda Alexander
+
+**Clown**
+Clown-Gestalt / Rosine Rochette
+Éric Blouet
+Richard Potchinko / V. Coburn & S. Morrison, *Clown Through Mask*
+Giovanni Fusetti
+François Cervantès & Catherine Germain, *Le clown Arletti*
+Louise Peacock, *Serious Play: Modern Clown Performance*
+Théâtre physique / Jacques Lecoq
 
 **Approches transdisciplinaires**
 La Modulinette (intervention artistique transdisciplinaire) / Rataf

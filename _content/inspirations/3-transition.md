@@ -6,7 +6,7 @@ color: green
 ---
 
 **Transition**
-Villes et territoires en transition / Rob Hopkins, *Manuel de transition*
+Villes et territoires en transition / Rob Hopkins
 Décroissance / Ivan Illich, Serge Latouche, Paul Ariès
 Collapsologie & résilience / Pablo Servigne, Arthur Keller
 Simplicité volontaire & sobriété heureuse
@@ -21,10 +21,10 @@ Diana Leafe Christian, *Vivre autrement&nbsp;: écovillages, communautés et coh
 
 **Économie**
 Économie du don / Charles Eisenstein, Nipun Mehta, Jean-François Noubel, Miki Kashtan
-Monnaie libre G1 / Stéphane Laborde, *Théorie relative de la monnaie*
+Crédits mutuels & monnaie libre G1 / Stéphane Laborde, *Théorie relative de la monnaie*
 Revenu de base / Bernard Friot (salaire à vie)
 
-**Open source • Logiciel libre** / GNU/Linux, Framasoft, Blockchain/Holochain...
+**Open source • Logiciel libre**
 
 **Vie en pleine nature • Survie**
 David Manise & le CEETS (Centre d’Études & d’Enseignement des Techniques de Survie)
