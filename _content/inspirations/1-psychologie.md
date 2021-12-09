@@ -30,10 +30,12 @@ EMDR / Francine Shapiro
 Internal Family Systems / Richard Schwartz
 Psychothérapie institutionnelle
 
-**Amour • Sexualité**
+**Tendresse • Amour • Sexualité**
+Cuddling
 Polyamour & non-exclusivité
 Tantra & sexualité sacrée
-Mouvement LGBTQIA+
+Mouvements LGBTQIA+ & sexpositif
+Roue du consentement / Betty Martin
 
 **Spiritualité**
 Hermann Hesse, *Siddhartha*

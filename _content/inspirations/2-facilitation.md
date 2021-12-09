@@ -15,8 +15,8 @@ Circling & Authentic Relating
 Forum ouvert / Harrison Owen
 La voie du cercle / Christina Baldwin & Ann Linea
 
-**Éducation populaire & politique** / STAJ Touraine, Le Pavé &co
-Pratiques de l’autogestion et de l’auto-organisation
+**Éducation populaire & politique**
+Anarchisme, pratiques de l’autogestion et de l’auto-organisation
 Mouvements citoyens / Indignés, Occupy, Nuit debout, Gilets jaunes...
 Déconstruction des opressions systémiques (sexisme, racisme, âgisme...)
 Désobéissance civile
@@ -28,7 +28,7 @@ Artivisme & clown-activisme / John Jordan
 Frédéric Laloux, *Reinventing organizations*
 Gouvernance Organique / Aleksander Piecuch
 Sociocratie / Gerard Endenburg
-Holacracy / Brian J. Robertson
+Holacratie / Brian J. Robertson
 Rêve du dragon / John Croft
 
 **Démocratie permanente**
@@ -40,6 +40,7 @@ Elisa Lewis & Romain Slitine, *Le coup d'État citoyen*
 Jean Liedloff, *Le concept du continuum&nbsp;: la recherche du bonheur perdu*
 Alice Miller, *C’est pour ton bien&nbsp;: racines de la violence dans l’éducation de l’enfant*
 Ivan Illich, *Une société sans école*
+André Stern, *...et je ne suis jamais allé à l’école*
 Jacques Rancière, *Le maître ignorant*
 Pédagogies de la décision / Jean Houssaye, Jean-Marie Bataille, Jean-Michel Bocquet
 École du 3ème type / Bernard Collot

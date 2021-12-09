@@ -27,8 +27,8 @@ Revenu de base / Bernard Friot (salaire à vie)
 **Open source • Logiciel libre**
 
 **Vie en pleine nature • Survie**
+Réensauvagement & féralité
 David Manise & le CEETS (Centre d’Études & d’Enseignement des Techniques de Survie)
-Froissartage
 
 **Chasseurs-cueilleurs • Peuples premiers**
 James C. Scott, *Homo Domesticus*
