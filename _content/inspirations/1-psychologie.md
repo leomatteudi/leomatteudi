@@ -17,17 +17,17 @@ Gestalt-thérapie
 **Traumatismes & système nerveux**
 PSIP / Saj Razvi
 Somatic Experiencing / Peter Levine
-NARM / Laurence Heller & Aline LaPierre
-Somatic Practice / Kathy Kain
+NARM / Laurence Heller
+Bessel van der Kolk
 Gabor Maté
+EMDR / Francine Shapiro
 
 **Autres approches thérapeutiques**
 Hypnose / Milton Erickson, François Roustang
 Constellations familiales / Bert Hellinger
-Écologie intérieure / Yann Thibaud
 Psychomagie / Alejandro Jodorowsky
-EMDR / Francine Shapiro
 Internal Family Systems / Richard Schwartz
+Thérapies brèves & systémiques
 Psychothérapie institutionnelle
 
 **Tendresse • Amour • Sexualité**

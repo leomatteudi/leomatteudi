@@ -9,11 +9,9 @@ color: red
 Process Work & Deep Democracy / Arnold & Amy Mindell
 Approche Centrée sur la Personne / Carl Rogers
 Communication Non-Violente / Marshall Rosenberg
-Justice restaurative & systèmes/cercles restauratifs / Dominic Barter
+Justice restaurative & cercles restauratifs / Dominic Barter
 Thérapie sociale / Charles Rojzman
 Circling & Authentic Relating
-Forum ouvert / Harrison Owen
-La voie du cercle / Christina Baldwin & Ann Linea
 
 **Éducation populaire & politique**
 Anarchisme, pratiques de l’autogestion et de l’auto-organisation
@@ -26,10 +24,9 @@ Artivisme & clown-activisme / John Jordan
 
 **Gouvernance partagée • Entreprises libérées**
 Frédéric Laloux, *Reinventing organizations*
-Gouvernance Organique / Aleksander Piecuch
 Sociocratie / Gerard Endenburg
 Holacratie / Brian J. Robertson
-Rêve du dragon / John Croft
+Gouvernance Organique / Aleksander Piecuch
 
 **Démocratie permanente**
 Elisa Lewis & Romain Slitine, *Le coup d'État citoyen*

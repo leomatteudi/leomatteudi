@@ -10,6 +10,7 @@ Villes et territoires en transition / Rob Hopkins
 Décroissance / Ivan Illich, Serge Latouche, Paul Ariès
 Collapsologie & résilience / Pablo Servigne, Arthur Keller
 Simplicité volontaire & sobriété heureuse
+Désobéissance fertile
 Résistance climatique
 
 **Permaculture** / Bill Mollison, David Holmgren, Toby Hemenway, Rosemary Morrow, Éric Escoffier, Franck Nathié
