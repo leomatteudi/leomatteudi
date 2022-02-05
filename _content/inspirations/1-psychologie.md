@@ -10,7 +10,7 @@ Process Work / Arnold & Amy Mindell
 Respiration Holotropique / Stanislav & Christina Grof
 Approche Centrée sur la Personne / Carl Rogers
 Maïeusthésie / Thierry Tournebise
-Gestalt-thérapie
+Internal Family Systems / Richard Schwartz
 
 **Chamanisme** (dans ses multiples traditions)
 
@@ -25,9 +25,7 @@ EMDR / Francine Shapiro
 **Autres approches thérapeutiques**
 Hypnose / Milton Erickson, François Roustang
 Constellations familiales / Bert Hellinger
-Psychomagie / Alejandro Jodorowsky
-Internal Family Systems / Richard Schwartz
-Thérapies brèves & systémiques
+Dialogue ouvert
 Psychothérapie institutionnelle
 
 **Tendresse • Amour • Sexualité**
