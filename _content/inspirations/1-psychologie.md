@@ -26,6 +26,8 @@ EMDR / Francine Shapiro
 Hypnose / Milton Erickson, François Roustang
 Constellations familiales / Bert Hellinger
 Dialogue ouvert
+Thérapies familiales & systémiques
+Thérapies brèves
 Psychothérapie institutionnelle
 
 **Tendresse • Amour • Sexualité**
