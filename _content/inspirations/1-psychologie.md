@@ -15,12 +15,13 @@ Internal Family Systems / Richard Schwartz
 **Chamanisme** (dans ses multiples traditions)
 
 **Traumatismes & système nerveux**
-PSIP / Saj Razvi
 Somatic Experiencing / Peter Levine
 NARM / Laurence Heller
 Bessel van der Kolk
 Gabor Maté
+PSIP / Saj Razvi
 EMDR / Francine Shapiro
+Théorie de l’attachement
 
 **Autres approches thérapeutiques**
 Hypnose / Milton Erickson, François Roustang
