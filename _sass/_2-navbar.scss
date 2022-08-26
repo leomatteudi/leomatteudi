@@ -58,14 +58,14 @@
 			font-size: 4rem;
 		}
 		#occupation {
-			font-size: 2.66rem;
+			font-size: 3.05rem;
 			font-weight: $wbold;
 		
 		}
 	}
 	@include bp1-up {
 		justify-content: flex-start;
-		font-size: 3.6rem;
+		font-size: 3.7rem;
 		font-weight: $wbold;
 	}
 }

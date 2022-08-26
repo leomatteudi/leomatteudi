@@ -29,6 +29,9 @@
 	#logo {
 		width: 80%;
 		max-width: 39rem;
+		@media (min-width: 435px) {
+			width: 100%;
+		}
 	}
 	#name {
 		font-size: 11.25vw;
@@ -43,7 +46,7 @@
 		font-size: 7.5vw;
 		margin-top: -1.5vw;
 		@media (min-width: 435px) {
-			font-size: 4rem;
+			font-size: 4.1rem;
 			margin-top: -1rem;
 		}
 		#occupation1 {
@@ -55,10 +58,9 @@
 	}
 	#slogan {
 		font-style: italic;
-		font-size: 5.5vw;
-		margin-top: 3rem;
+		font-size: 4.5vw;
 		@media (min-width: 435px) {
-			font-size: 2.2rem;
+			font-size: 2.5rem;
 			margin-top: 0;
 		}
 	}
