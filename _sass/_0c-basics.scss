@@ -81,7 +81,7 @@ h1 {
 	hyphens: auto;
 }
 
-.intro {
+.introh1 {
 	margin-top: 2rem;
 	margin-bottom: 2rem;
 	font-size: $sb;
@@ -91,7 +91,7 @@ h1 {
 	}
 }
 
-.intro-img {
+.introh1-img {
 	width: 100%;
 	max-width: 560px;
 	border-radius: 0.4rem;
@@ -106,30 +106,18 @@ h1 {
 h2 {
 	font-weight: $wbold;
 	font-size: $stitle2;
-	margin-top: 6rem;
+	margin-top: 8rem;
 	margin-bottom: 1.25rem;
 }
 
 h3 {
 	font-weight: $wbold;
 	font-size: $stitle3;
-	margin-top: 4rem;
+	margin-top: 2.7rem;
 	margin-bottom: 1rem;
 	.h3-precision {
 	font-weight: $wlight;
 	font-size: 80%;
-	opacity: 0.8;
-	}
-}
-
-h4 {
-	font-weight: $wbold;
-	font-size: $stitle4;
-	margin-top: 3rem;
-	margin-bottom: 0.5rem;
-	.h4-precision {
-	font-weight: $wlight;
-	font-size: 90%;
 	opacity: 0.8;
 	}
 }
@@ -167,6 +155,11 @@ button:hover, button:focus, button:active, button.active, .button:hover, .button
 	background-color: $yellow;
 	border: 0.1rem solid $yellow;
 	opacity: 1;
+}
+
+.button-center {
+	margin-top: 10rem;
+	text-align: center;
 }
 
 .button-end {

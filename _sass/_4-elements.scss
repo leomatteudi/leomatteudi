@@ -1,24 +1,35 @@
 
-/* POUR QUI ? ************************************************/
+/* ACCOMPAGNEMENTS ************************************************/
 
-#accompagnements-img {
-	max-width: 600px;
-}
-
-#pourqui1 {
-	margin-top: 4rem;
-}
-
-.pourqui {
-	margin-top: 0.5rem;
-}
-
-#pourqui-end {
-	margin-top: 4rem;
-	p {
-		font-size: $sb;
+#approche {
+	strong {
+		font-weight: 300;
+		background-color: $red;
+		color: $white;
+		padding: 0rem 0.3rem;
+		border-radius: 0.2rem;
 	}
 }
+
+
+
+/* EVENEMENTS ************************************************/
+
+#evenements-passes {
+	p {
+		font-style: italic;
+	}
+	strong {
+		font-weight: 300;
+		font-style: normal;
+		text-transform: uppercase;
+		background-color: $green;
+		color: $white;
+		padding: 0rem 0.3rem;
+		border-radius: 0.2rem;
+	}
+}
+
 
 /* QUI SUIS-JE ? ************************************************/
 
@@ -35,26 +46,11 @@
 }
 
 
-/* EVENEMENTS ************************************************/
-
-#evenements-passes {
-	h2 {
-		font-size: $stitle3;
-	}
-	h4 {
-		font-size: $sm;
-	}	
-	p {
-		font-size: $ss;
-		font-style: italic;
-	}
-}
-
-
 /* CONTACT ************************************************/
 
 #contact-form-div {
 	width: 100%;
+	margin-bottom: 2rem;
 }
 
 #contact-form {
@@ -87,10 +83,6 @@
 }
 
 #legal {
-	h2 {
-		font-size: $stitle4;
-		margin-bottom: 0.8rem;
-	}
 	p {
 		font-size: $ss;
 	}

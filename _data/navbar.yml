@@ -1,18 +1,15 @@
-- ref: pourqui
-  link: /pour-qui
-  nav: Pour&nbsp;qui&nbsp;?
-- ref: approche
-  link: /approche
-  nav: Approche
+- ref: accompagnements
+  link: /accompagnements
+  nav: Accompagnements
+- ref: evenements
+  link: /evenements
+  nav: Événements
 - ref: quisuisje
   link: /qui-suis-je
   nav: Qui&nbsp;suis&#8209;je&nbsp;?
 - ref: temoignages
   link: /temoignages
   nav: Témoignages
-- ref: evenements
-  link: /evenements
-  nav: Événements
 - ref: contact
   link: /contact
   nav: Contact
