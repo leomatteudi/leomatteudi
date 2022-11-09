@@ -1,6 +1,10 @@
 
 /* ACCOMPAGNEMENTS ************************************************/
 
+#pourqui-thematiques {
+	margin-top: -1rem;
+}
+
 #approche {
 	strong {
 		font-weight: 300;
@@ -8,6 +12,26 @@
 		color: $white;
 		padding: 0rem 0.3rem;
 		border-radius: 0.2rem;
+	}
+}
+
+#enpratique {
+	table {
+		width: 100%;
+	}
+	table, th, td {
+		border-style: solid;
+		border-width: 1px;
+		border-color: $black;
+		text-align: center;
+	}
+	th {
+		background-color: $blue;
+		color: $white;
+	}
+	#enpratique-tarifs {
+		font-size: $ss;
+		margin-top: 0.5rem;
 	}
 }
 
