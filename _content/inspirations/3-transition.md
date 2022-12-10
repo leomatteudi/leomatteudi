@@ -15,7 +15,8 @@ Résistance climatique
 
 **Permaculture** / Bill Mollison, David Holmgren, Toby Hemenway, Rosemary Morrow, Éric Escoffier, Franck Nathié
 Agriculture naturelle / Manasobu Fukuoka
-James Lovelock, *Gaia*
+Agriculture syntropique / Ernst Götsch
+Maraîchage Sol Vivant
 
 **Écovillages & communautés** / Global Ecovillage Network
 Diana Leafe Christian, *Vivre autrement&nbsp;: écovillages, communautés et cohabitats*
