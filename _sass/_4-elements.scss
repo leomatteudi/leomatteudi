@@ -39,6 +39,22 @@
 
 /* EVENEMENTS ************************************************/
 
+#evenements-avenir {
+	p {
+		font-style: italic;
+	}
+	strong {
+		font-weight: 300;
+		font-style: normal;
+		text-transform: uppercase;
+		background-color: $red;
+		color: $white;
+		padding: 0rem 0.3rem;
+		border-radius: 0.2rem;
+	}
+}
+
+
 #evenements-passes {
 	p {
 		font-style: italic;
