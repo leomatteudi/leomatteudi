@@ -2,7 +2,7 @@
   link: /individus
   nav: Individus
 - ref: organisations
-  link: /Organisations
+  link: /organisations
   nav: Organisations
 - ref: evenements
   link: /evenements
