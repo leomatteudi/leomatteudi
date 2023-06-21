@@ -1,6 +1,9 @@
-- ref: accompagnements
-  link: /accompagnements
-  nav: Accompagnements
+- ref: individus
+  link: /individus
+  nav: Individus
+- ref: organisations
+  link: /Organisations
+  nav: Organisations
 - ref: evenements
   link: /evenements
   nav: Événements
