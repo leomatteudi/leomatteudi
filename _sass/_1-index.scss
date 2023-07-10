@@ -162,6 +162,7 @@
 /* INDEX4 ************************************************/
 
 #index4 {
+	margin-bottom: -9rem;
 	margin-top: 5rem;
 	@include index1-up {
 		margin-top: 15rem;
@@ -190,6 +191,17 @@
 		}
 		a:hover, a:focus, a:active {
 			background-color: $yellow;
+			color: $black;
+			text-decoration: none;
+		}
+	}
+	#index-footer {
+		margin-top: 0.7rem;
+		margin-bottom: 10rem;
+		a {
+			color: $red;
+		}
+		a:hover, a:focus, a:active {
 			color: $black;
 			text-decoration: none;
 		}
