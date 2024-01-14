@@ -1,9 +1,9 @@
 - ref: accompagnements
   link: /accompagnements
   nav: Accompagnements
-- ref: evenements
-  link: /evenements
-  nav: Événements
+- ref: experiences
+  link: /experiences
+  nav: Expériences
 - ref: quisuisje
   link: /qui-suis-je
   nav: Qui&nbsp;suis&#8209;je&nbsp;?
