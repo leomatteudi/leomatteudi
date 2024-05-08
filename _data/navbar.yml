@@ -1,6 +1,9 @@
-- ref: accompagnements
-  link: /accompagnements
-  nav: Accompagnements
+- ref: individus
+  link: /individus
+  nav: Individus
+- ref: collectifs
+  link: /collectifs
+  nav: Collectifs
 - ref: experiences
   link: /experiences
   nav: Expériences
