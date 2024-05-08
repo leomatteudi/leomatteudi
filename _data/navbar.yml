@@ -1,9 +1,9 @@
 - ref: individus
   link: /individus
   nav: Individus
-- ref: collectifs
-  link: /collectifs
-  nav: Collectifs
+- ref: organisations
+  link: /organisations
+  nav: Organisations
 - ref: experiences
   link: /experiences
   nav: Expériences
