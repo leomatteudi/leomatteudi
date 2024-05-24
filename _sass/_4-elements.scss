@@ -1,5 +1,5 @@
 
-/* ACCOMPAGNEMENTS ************************************************/
+/* INDIVIDUS ************************************************/
 
 #pourqui-thematiques {
 	margin-top: -1rem;
@@ -15,26 +15,17 @@
 	}
 }
 
-#enpratique {
-	table {
-		width: 100%;
-	}
-	table, th, td {
-		border-style: solid;
-		border-width: 1px;
-		border-color: $black;
-		text-align: center;
-		vertical-align: middle;
-	}
-	th {
-		background-color: $blue;
+/* ORGANISATIONS ************************************************/
+
+#thematiques {
+	strong {
+		font-weight: 300;
+		background-color: $red;
 		color: $white;
-	}
-	#enpratique-tarifs {
-		margin-top: -1rem;
+		padding: 0rem 0.3rem;
+		border-radius: 0.2rem;
 	}
 }
-
 
 
 /* EVENEMENTS ************************************************/
@@ -83,47 +74,4 @@
 .temoignage-div {
 	margin-top: 3rem;
 	font-style: italic;
-}
-
-
-/* CONTACT ************************************************/
-
-#contact-form-div {
-	width: 100%;
-	margin-bottom: 2rem;
-}
-
-#contact-form {
-	display: flex;
-	flex-direction: column;
-	.contact-form-input {
-		padding: 0.7rem 1.2rem 0.6rem 1.2rem;
-		width: 100%;
-		border: 0.1rem solid;
-		border-radius: 0.3rem;
-		box-shadow: none;
-	}
-	#contact-form-message {
-		height: 200px;
-	}
-	#contact-form-container {
-		margin-top: 1rem;
-		display: flex;
-		flex-wrap: wrap;
-		#contact-form-email, #contact-form-button {
-			margin-bottom: 1rem;
-		}
-		@media (min-width: 300px) {
-			flex-wrap: nowrap;
-			#contact-form-button {
-				margin-left: 1rem;
-			}
-		}
-	}
-}
-
-#legal {
-	p {
-		font-size: $ss;
-	}
 }
