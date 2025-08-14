@@ -77,8 +77,11 @@
 /* INDEX-KEYWORDS ************************************************/
 
 #index-keywords {
-	font-size: 2.6rem;
+	font-size: 2rem;
 	margin-bottom: 5rem;
+	@include bp2-up {
+		padding: 10rem 1rem;
+		font-size: 2.6rem;
 }
 
 
